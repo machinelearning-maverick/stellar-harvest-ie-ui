@@ -1,0 +1,9 @@
+    fastapi
+    uvicorn[standard]
+    jinja2
+    python-jose[cryptography]
+    passlib[bcrypt]
+    sqlalchemy[asyncio]
+    asyncpg
+    aiokafka
+    python-multipart
