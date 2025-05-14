@@ -24,7 +24,3 @@ WORKDIR /usr/local/lib/python3.11/site-packages
 EXPOSE ${UI_PORT}
 
 CMD ["uvicorn", "stellar_harvest_ie_ui", "--host", "0.0.0.0", "--port", "${UI_PORT}"]
-
-# CMD uvicorn stellar_harvest_ie_ui.main:app \
-#     --host 0.0.0.0 \
-#     --port ${UI_PORT}
