@@ -11,7 +11,9 @@ RUN --mount=type=secret,id=env \
     pip install --upgrade --no-cache-dir \
       --index-url "$DEVPI_HASEK_DEV_URL" \
       --extra-index-url https://pypi.org/simple \
+      --trusted-host host.docker.internal \
       stellar-harvest-ie-ui
+    # Hosted on VPS - remove '--trusted-host'
 
 ARG UI_PORT=8000
 ENV UI_PORT=${UI_PORT}
