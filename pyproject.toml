@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "stellar_harvest_ie_ui"
-version = "0.1.0"
+name = "stellar-harvest-ie-ui"
+version = "0.1.1"
 description = "FastAPI-based UI/dashboard service for StellarHarvest Insight Engine"
 readme = "README.md"
 requires-python = ">=3.11"
